@@ -19,7 +19,4 @@ public class StreamConcat {
         Stream<String> result = Stream.concat(s3, s4);
         System.out.println(result.toList());
     }
-
-
-
 }
